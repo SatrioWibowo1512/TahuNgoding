@@ -7,7 +7,6 @@ for ($i = 2; $i <= 20; $i+=2){
 }
 
 //Luas persegi panjang
-
 echo "=====LUAS PERSEGI PAJANG=====<br>";
 function persegiPanjang($panjang, $lebar){
     return $lebar * $panjang;
