@@ -1,0 +1,9 @@
+<?php
+
+function sayHello(){
+    echo "Halo, selamat belajar PHP";
+}
+
+sayHello(); //memanggil function
+
+?>
