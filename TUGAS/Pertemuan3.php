@@ -57,7 +57,7 @@ echo "Jurusan: " . $mahasiswa["Jurusan"] . "<br>";
 <body>
 
 <?php
-$produK = [
+$produk = [
     [
         "nama" => "Laptop",
         "harga" => 15000000,
@@ -94,7 +94,7 @@ $produK = [
     </thead>
     <tbody>
         <?php
-        foreach ($produK as $produks) {
+        foreach ($produk as $produks) {
             echo "<tr>";
             echo "<td>" . htmlspecialchars($produks['nama']) . "</td>";
             $formatharga = "Rp " . number_format($produks['harga'], 0, ',', '.');
