@@ -98,7 +98,7 @@ $produk = [
             echo "<tr>";
             echo "<td>" . htmlspecialchars($produks['nama']) . "</td>";
             $formatharga = "Rp " . number_format($produks['harga'], 0, ',', '.');
-            echo "<td>" . htmlspecialchars($format) . "</td>";
+            echo "<td>" . htmlspecialchars($formatharga) . "</td>";
             echo "<td>" . htmlspecialchars($produks['stok']) . "</td>";
             echo "</tr>";
         }
